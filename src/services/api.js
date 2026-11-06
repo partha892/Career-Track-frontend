@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: "https://career-track-backend-one.vercel.app/",
+    baseURL: "https://career-track-backend-one.vercel.app",
     withCredentials: true,
     headers: {
         "Content-Type": "application/json"
